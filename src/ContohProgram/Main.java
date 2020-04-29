@@ -11,13 +11,12 @@ public class Main {
         player1.score = 500;
         player1.length = 3.5;
 
-        player2.userName = "Ucup";
-        player2.score = 200;
-        player2.length = 1.5;
-
         player1.eatSnack(); //menjalankan eatSnake
-        System.out.println(player1.score); //mengecek score player 1 sekarang
+        System.out.println("Score Awal Player 1      = "+player1.score); //mengecek score player 1 sekarang
+        System.out.println("Panjang Player 1         = "+player1.length); //mengecek panjang player 1 sekarang
         player1.eatOthers(player2); //kemudian player 1 memakan player2/eatOthers
-        System.out.println(player1.score); //hasil score sekarang setelah memakan
+        System.out.println("Score Player 1 Sekarang  = "+player1.score); //hasil score sekarang setelah memakan
+
+
     }
 }
