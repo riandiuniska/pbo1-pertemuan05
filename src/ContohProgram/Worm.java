@@ -11,7 +11,7 @@ public class Worm {
         System.out.println("Nom... Nom... Nom... Nom......");
     }
 
-    void eatOthers(Worm worm){
+    void eatOthers(Worm worm) { //memakan sesama cacing
         score += 500;
     }
 }
