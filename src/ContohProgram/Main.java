@@ -2,7 +2,7 @@ package ContohProgram;
 //Class Main untuk menjalankan/membuat cetakan objek/bagaimana behavior dari objek dijalankan
 public class Main {
     public static void main(String[] args) {
-        //intance/pembuatan objek dari kelas yang sudah dideklarasikan sebelumnya
+        //intance/pembuatan objek dari class yang sudah dideklarasikan sebelumnya
         Worm player1 = new Worm();
         Worm player2 = new Worm();
 
@@ -12,6 +12,7 @@ public class Main {
         player1.length = 3.5;
 
         player1.eatSnack(); //menjalankan eatSnake
+        System.out.println("Player 1                 = "+player1.userName);
         System.out.println("Score Awal Player 1      = "+player1.score); //mengecek score player 1 sekarang
         System.out.println("Panjang Player 1         = "+player1.length); //mengecek panjang player 1 sekarang
         player1.eatOthers(player2); //kemudian player 1 memakan player2/eatOthers
